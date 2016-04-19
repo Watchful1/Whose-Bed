@@ -37,8 +37,7 @@ public class MyEventListener {
 
 	@SubscribeEvent
 	public void onWorldLoadEvent(WorldEvent.Load event) {
-		World world = event.getWorld();
-		if (!world.isRemote) return;
+		if (!event.getWorld().isRemote) return;
 		if (playersLoaded) return;
 		init();
 		File playerDataFolder = new File(DimensionManager.getCurrentSaveRootDirectory(), "playerdata");
