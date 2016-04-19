@@ -1,4 +1,4 @@
-package com.example.examplemod;
+package gr.watchful.whosbed;
 
 import net.minecraft.block.Block;
 import net.minecraft.entity.player.EntityPlayer;

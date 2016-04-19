@@ -1,4 +1,4 @@
-package com.example.examplemod;
+package gr.watchful.whosbed;
 
 import net.minecraftforge.common.MinecraftForge;
 import net.minecraftforge.fml.common.Mod;
