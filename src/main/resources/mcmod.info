@@ -1,0 +1,16 @@
+[
+{
+  "modid": "whosebed",
+  "name": "Who's bed?",
+  "description": "A mod that tells you who used a bed",
+  "version": "${version}",
+  "mcversion": "${mcversion}",
+  "url": "",
+  "updateUrl": "",
+  "authorList": ["Watchful1"],
+  "credits": "",
+  "logoFile": "",
+  "screenshots": [],
+  "dependencies": []
+}
+]
