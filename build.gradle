@@ -21,8 +21,8 @@ plugins {
 }
 */
 version = "1.0"
-group= "gr.watchful.whosbed" // http://maven.apache.org/guides/mini/guide-naming-conventions.html
-archivesBaseName = "whosbed"
+group= "gr.watchful.whosebed" // http://maven.apache.org/guides/mini/guide-naming-conventions.html
+archivesBaseName = "whosebed"
 
 minecraft {
     version = "1.9-12.16.0.1863-1.9"

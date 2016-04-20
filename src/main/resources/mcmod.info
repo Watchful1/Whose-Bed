@@ -1,7 +1,7 @@
 [
 {
   "modid": "whosebed",
-  "name": "Who's bed?",
+  "name": "Whose bed?",
   "description": "A mod that tells you who used a bed",
   "version": "${version}",
   "mcversion": "${mcversion}",
