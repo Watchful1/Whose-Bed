@@ -82,7 +82,7 @@ public class MyEventListener {
 
 	@SubscribeEvent
 	public void onPlayerInteractEvent(PlayerInteractEvent.RightClickBlock event) {
-		if (!event.getWorld().isRemote && event.getEntityPlayer().isSneaking() && event.getWorld().getBlockState(event.getPos()).getBlock().equals(Blocks.bed)) {
+		if (!event.getWorld().isRemote && event.getEntityPlayer().isSneaking() && event.getWorld().getBlockState(event.getPos()).getBlock().equals(Blocks.BED)) {
 			BlockPos pos = event.getPos();
 
 			Block block = event.getWorld().getBlockState(pos).getBlock();
